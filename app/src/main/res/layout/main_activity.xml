@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/basketball_wallpaper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTimA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/timA"
+            android:textColor="@color/team" />
+
+        <TextView
+            android:id="@+id/tvScoreA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTimA"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/score"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/btnA3"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/tvScoreA"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:text="@string/point3"
+            android:textColor="@color/textButton" />
+
+        <Button
+            android:id="@+id/btnA2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/btnA3"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:text="@string/point2"
+            android:textColor="@color/textButton" />
+
+        <Button
+            android:id="@+id/btnA1"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/btnA2"
+            android:background="@drawable/button"
+            android:text="@string/point1"
+            android:textColor="@color/textButton" />
+
+        <Button
+            android:id="@+id/btnUndo"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button"
+            android:text="@string/undo"
+            android:textColor="@color/textButton" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="320dp"
+        android:background="#888"
+        android:layout_marginTop="24dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTimB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/timB"
+            android:textColor="@color/team" />
+
+        <TextView
+            android:id="@+id/tvScoreB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTimB"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/score"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnB3"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/tvScoreB"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:text="@string/point3"
+            android:textColor="@color/textButton" />
+
+        <Button
+            android:id="@+id/btnB2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/btnB3"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:text="@string/point2"
+            android:textColor="@color/textButton" />
+
+        <Button
+            android:id="@+id/btnB1"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/btnB2"
+            android:background="@drawable/button"
+            android:text="@string/point1"
+            android:textColor="@color/textButton" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button"
+            android:text="@string/reset"
+            android:textColor="@color/textButton" />
+    </RelativeLayout>
+</LinearLayout>

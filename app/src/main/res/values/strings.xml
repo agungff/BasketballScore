@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Basketball Score</string>
+    <string name="timA">Team A</string>
+    <string name="timB">Team B</string>
+    <string name="point1">+1 Throw</string>
+    <string name="point2">+2 Throw</string>
+    <string name="point3">+3 Throw</string>
+    <string name="reset">Reset</string>
+    <string name="undo">Undo</string>
+</resources>
